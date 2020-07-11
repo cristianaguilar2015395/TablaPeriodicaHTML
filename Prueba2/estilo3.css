@@ -1,0 +1,17 @@
+body {background-color: #A2D8A2;
+    background-repeat: no-repeat;}
+header  {color:black;
+    text-align:center;
+    font-size:200%;
+            font-family:'Times New Roman', Times, serif ;
+    } 
+p {color:black;
+    font-size:30%;
+    font-family:'Times New Roman', Times, serif ;
+    text-align: justify;
+}
+h1{color:black;
+    font-size:40%;
+    font-family:'Times New Roman', Times, serif ;
+    text-align: left;
+}

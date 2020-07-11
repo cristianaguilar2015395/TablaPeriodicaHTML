@@ -1,0 +1,26 @@
+#fondoInicio{
+	margin-top: 20px;
+}
+
+
+#fondo .contenedor{
+	position: left;
+	top: 60%;
+	left: 20%;
+	color: black;
+}
+
+#fondo h2{
+	font-size: 38px;
+}
+
+#fondo a{
+	display: block;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid black;
+}
+

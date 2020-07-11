@@ -1,0 +1,41 @@
+#menuOpciones{
+	display: none;
+}
+
+header label{
+	float: right;
+	font-size: 28px;
+	margin: 8px 0px;
+	
+}
+
+.menu{
+	position: absolute;
+	top: 45px;
+	left: 0;
+	width: 18%;
+	height: 100vh;
+	background-image: linear-gradient(black, black, #546950);
+	transition: all 0.4s;
+	transform: translateX(-100%);
+}
+
+.menu a{
+	display: block;
+	color: #fff;
+	height: 30px;
+	text-decoration: none;
+	padding: 25px
+	
+}
+
+.menu a:hover{
+	background: #546950
+}
+
+#menuOpciones:checked ~ .menu{
+	transform: translateX(0%);
+}
+	
+	
+	
